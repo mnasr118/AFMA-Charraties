@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Bootstrap CSS -->
+   
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+        <script src="https://kit.fontawesome.com/d2fda5aa13.js" crossorigin="anonymous"></script>
+		<link 
+        rel="stylesheet" 
+        href="css/styles.css" 
+    />
+     
+
+		<title>Hello, world!</title>
+	</head>
+	<body>
+		<header class = "">
+			<div class = "jumbotron-fluid hero-img">
+			<div class="bg-image hero" 
+			style="background-image: url('img/truckhero2.png');
+					background-size:cover;
+					background-repeat: no;
+				   height: 500px">
+	  		 </div>
+			   
+			</div>
+			
+		</header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">Navbar</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="index.html"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">History</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Events</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Store</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class = "container"> <!--cards-->
+			<div class = "row row-content"> 
+				<div class = "col-xs-12 col-md-6">
+					<div class="card mb-3" ">
+						<div class="row g-0">
+						  <div class="col-xs-12 col-md-4">
+							<img src="img/logo3.jpg" class="img-fluid rounded-start" alt="...">
+						  </div>
+						  <div class="col-md-8">
+							<div class="card-body">
+							  <h5 class="card-title">Our History</h5>
+							  <p class="card-text">As the fire service
+								adapts and changes, our
+								Charities division continues to 
+								​grow to serve our communities..
+								
+								​Starting in 2013 as Sun City West Firefighter Charities, our charities division has grown to include Sun Lakes, Tonopah, and Wittmann Charity foundations as one consolidated firefighter Charities board.
+								​
+								The AFMA Firefighters Charities
+								offers assistance to members, citizens, and charitable organizations who have faced unforeseen ​circumstances with uncompensated financial assistance, perpetually maintaining our core values; service, integrity, and compassion.</p>
+							  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							</div>
+						  </div>
+						</div>
+					  </div>
+				</div>
+				<div class = "col-xs-12 col-md-6">
+					<div class="card mb-3" ">
+						<div class="row g-0">
+						  <div class="col-xs-12 col-md-4">
+							<img src="img/logo3.jpg" class="img-fluid rounded-start" alt="...">
+						  </div>
+						  <div class="col-md-8">
+							<div class="card-body">
+							  <h5 class="card-title">Who we are</h5>
+							  <p class="card-text">​We are a registered 
+								Non-Profit 501(c)3 
+								Public Charity proudly serving
+								​Sun City West, Sun Lakes, Wittman, Tonopah, and surrounding areas
+								<br><br><br><br><br><br><br><br><br>
+								</p>
+							  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							</div>
+						  </div>
+						</div>
+					  </div>
+				</div>
+			
+			</div>
+		</div>
+
+		<div class = "jumbotron-fluid row-content-end"> <!--Banner 2 with buttons-->
+			<div class = "c">
+			<div class="bg-image" 
+     style="background-image: url('img/herotwo.jpg');
+	 		background-size:cover;
+			background-repeat: no;
+			height:500px;">
+				
+					<div class = "row">
+						<div class = "col-md-6 d-flex justify-content-center ">
+							<div class = " d-flex align-items-center">
+							<button  id = "banner-btn" type ="button" data-bs-toggle="modal" data-bs-target="#eventsModal"  class = "border border-light border-4 btn btn-lg btn-outline-light ">UPCOMING EVENTS</button><br><br></br></br>
+							<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+							</div>
+						</div>
+						<div class = "col-md-6 d-flex justify-content-center ">
+							<div class = " d-flex align-items-center">
+							<button id ="banner-btn" type ="button" data-bs-toggle="modal" data-bs-target="#contactModal" class = " border border-light border-4 btn btn-lg btn-outline-light v ">SCHEDULE AN EVENT</button><br><br></br></br>
+							<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+							</div>
+						</div>
+					</div> 
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="eventsModal" tabindex="-1"  aria-labelledby="exampleModalLabel" aria-hidden="true"> <!--Event calendar Modal-->
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header bg-dark text-white">
+        <h5 class="modal-title" id="exampleModalLabel">AFMA FF Charities Event calendar</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+		v<div class = "responsive-iframe-container">
+			<iframe src="https://calendar.google.com/calendar/embed?src=49jq0fpk6da1i6780d8nb22vs4%40group.calendar.google.com&ctz=America%2FPhoenix" style="border: 0" width="800" height="600" frameborder="0" scrolling="yes"></iframe>
+		</div>      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+		</div>
+
+		<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+				  ...
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				  <button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			  </div>
+			</div>
+		  </div>
+
+
+
+
+    
+		<footer>
+			<div class = "container-fluid">
+				<div class="row row-footer">
+					<div class="col-xs-12">
+						<div class = "container">
+							<div class = "row">
+								<div class = "col">
+									
+									<span>
+										<a class = "btn btn-social-icon btn-instagram btn-lg" href = "https://www.instagram.com">
+											<i class="fab fa-instagram" ></i>
+										</a>
+									</span>
+
+									<span>
+										<a class = "btn btn-social-icon btn-lg" href = "www.instagram.com">
+											<i class="  fas fa-envelope"></i>
+										</a>
+									</span>
+
+									<span>
+										<a class = "btn btn-social-icon btn-lg" href = "www.facebook.com">
+											<i class="fab fa-facebook-square"></i>
+										</a>
+									</span>
+									
+									
+								</div>
+							</div>
+						</div>
+				
+                    </div>
+				</div>
+                
+                    
+			</div>
+		</footer>
+
+		<!-- Optional JavaScript; choose one of the two! -->
+
+		<!-- Option 1: Bootstrap Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

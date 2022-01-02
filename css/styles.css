@@ -1,0 +1,80 @@
+.row-footer {
+    background-image: linear-gradient(rgb(180, 175, 175), white);
+    padding: 50px 0;
+    
+}
+
+.btn-social-icon {
+    padding: 0px;
+}
+
+
+.row-content {
+    padding-top: 50px;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.row-content-end{
+    padding-bottom:50px;
+}
+
+#thumbnail {
+    height:300px;
+    width:300px;
+}
+.jumbotron {
+ 
+  
+    }
+.space {
+    height:500px;
+}
+
+
+body{
+    background:whitesmoke;
+}
+
+.card {
+    border-style:ridge;
+    border-width:1px;
+}
+
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    }
+    
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+    #banner-btn {
+        font-size:25px;
+        border:black;
+        border:10px;
+    }
+.hero-image{
+    
+        position: relative;
+        text-align: center;
+        color: white;
+      
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
